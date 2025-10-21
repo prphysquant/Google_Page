@@ -11,7 +11,7 @@
     --radius-btn: 4px;
 
     --font-family: Arial, sans-serif;
-    --max-width: 720px;
+    --max-width: 768px;
 }
 
 * {
@@ -52,6 +52,10 @@ body {
     padding: 18px 24px;
     align-items: end;
     width: 1024px;
+}
+
+.image {
+    cursor: pointer;
 }
 
 .mail {
@@ -223,7 +227,7 @@ body {
 @media (max-width: 375px) {
     .btn {
         font-size: 0.7rem;
-        width: 120;
+        width: 120px;
     }
 
     .search-bar {
